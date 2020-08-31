@@ -1,9 +1,42 @@
-Questions = []
 
+""" Add your questions in this array """
+Questions = [{
+                'question': 'Who was the inventor of C language',
+                'option1': 'Dennis Ritchie',
+                'option2': 'Sanket Shinde',
+                'option3': 'Fortran Baba',
+                'option4': 'None of the above',
+                'correctAnswer': 'option1'
+            },{
+                'question': 'Who was the inventor of C language',
+                'option1': 'Dennis Ritchie',
+                'option2': 'Sanket Shinde',
+                'option3': 'Fortran Baba',
+                'option4': 'None of the above',
+                'correctAnswer': 'option1'
+
+            },{
+                'question': 'Who was the inventor of C language',
+                'option1': 'Dennis Ritchie',
+                'option2': 'Sanket Shinde',
+                'option3': 'Fortran Baba',
+                'option4': 'None of the above',
+                'correctAnswer': 'option1'
+            },{
+                'question': 'Who was the inventor of C language',
+                'option1': 'Dennis Ritchie',
+                'option2': 'Sanket Shinde',
+                'option3': 'Fortran Baba',
+                'option4': 'None of the above',
+                'correctAnswer': 'option1'
+            },
+]
 score = 0
+"""
+//This is if you want to take questions from the user
 n = int(input("Enter the number of questions to be entered in the array\n"))
 
-"""This is the loop for adding questions and there options"""
+// This is the loop for adding questions and there options
 for i in range(n):
     Question = {}
     question = input("Enter the " + str(i) + "th question\n")
@@ -19,10 +52,11 @@ for i in range(n):
     Question["option4"] = option4
     Question["correctAnswer"] = answer
     Questions.append(Question)
+"""
+
 
 """This loops displays the questions and there options to the user , also it takes the user answer ,and stores the score of the user """
 for obj in Questions:
-    print(obj)
     print(obj["question"])
     print(obj["option1"])
     print(obj["option2"])
