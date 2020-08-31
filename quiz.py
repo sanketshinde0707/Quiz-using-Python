@@ -1,4 +1,5 @@
 Questions = []
+
 score = 0
 n = int(input("Enter the number of questions to be entered in the array\n"))
 
